@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 function randomNun() {
     return Math.random()
 }
 
-export default randomNun
+function getThis() {
+    return this
+}
+
+export default { getThis, randomNun }
