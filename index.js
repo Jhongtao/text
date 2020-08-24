@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.log('index');
 let a = 1, b = 2;
 console.log(a + b)
@@ -7,3 +8,10 @@ module.exprots = function () {
     return
 }
 
+=======
+console.log('index')
+exports.getBranch = () => {
+    return this.name
+}
+console.log(Math.random)
+>>>>>>> demo
