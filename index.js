@@ -1,5 +1,5 @@
-console.log('index')
-exports.getBranch = () => {
-    return this.name
+function getThis() {
+    return this
 }
-console.log(Math.random)
+
+export default getThis
